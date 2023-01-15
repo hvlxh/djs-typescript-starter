@@ -1,0 +1,32 @@
+{
+  "name": "djs-typescript-starter",
+  "version": "1.0.0",
+  "description": "A Template for discord.js with typescript support",
+  "main": "dist/index.js",
+  "scripts": {
+    "clear": "rimraf ./dist",
+    "compile": "tsc",
+    "start": "node .",
+    "build": "npm run clear && npm run compile && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hvlxh/djs-typescript.git"
+  },
+  "author": "hvlxh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hvlxh/djs-typescript/issues"
+  },
+  "homepage": "https://github.com/hvlxh/djs-typescript#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^14.7.1",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "rimraf": "^4.0.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}
